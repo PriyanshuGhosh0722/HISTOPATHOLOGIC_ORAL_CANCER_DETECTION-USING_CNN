@@ -112,8 +112,8 @@ pip install pandas seaborn matplotlib scikit-learn kagglehub opencv-python plotl
 - **ResNet-50**: Slightly lower test accuracy than EfficientNet, but strong validation accuracy.
 - **DenseNet-121 & Inception**: Slightly lower accuracy; DenseNet shows potential underfitting, possibly due to limited train samples or batch size.
 - **Ensembles**: Generally outperform individual models. For example:
-  - Ensemble test accuracy: up to **97%**
-  - Validation accuracy: up to **97%**
+  - **ResNet50 + EfficientNetB3 (Weighted: 0.3, 0.7)** → **95.10%** accuracy
+  - **DenseNet121 + InceptionV3 (Weighted: 0.5, 0.5)** → **94.20%** accuracy
 - Confusion matrices indicate most misclassifications occur when normal tissue is classified as OSCC or vice versa—critical for clinical relevance.
 
 ## Usage
