@@ -1,4 +1,4 @@
-# Histopathological Oral Cancer Classification - README
+# Histopathological Oral Cancer Classification
 
 This repository provides a complete pipeline for the classification of oral cancer from histopathological images using advanced deep learning techniques. The project is structured as a Jupyter Notebook (`Histopathological_Oral_Cancer.ipynb`) and covers dataset preparation, model training, evaluation, and ensembling.
 
